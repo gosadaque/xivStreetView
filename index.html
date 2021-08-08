@@ -16,12 +16,7 @@
 	<link rel="stylesheet" href="main.css">
 	
 	<script>   
-		var mapJPEG = localStorage.getItem("mapJPEGSave");
-		function setMapJPEG(id) {
-			mapJPEG = id;
-			localStorage.setItem("mapJPEGSave", mapJPEG);
-			setTimeout(location.reload.bind(location), 1);
-		}
+		
 	</script>   
 
     <title>xivStreetView</title>
@@ -130,7 +125,9 @@
 					<a href="#" onclick='setMapJPEG("xF2vPAF.jpg")'>The Tempest</a>
 				</div>
 		   </div>
-		   <a href="https://docs.google.com/forms/d/1qmXvs4flrh136YQ4dhZND3hBfhSZ998ORTM5DWFaHM4/edit" >Submit location</a>
+		   <div class='dropdown'>
+				<a href="https://docs.google.com/forms/d/1qmXvs4flrh136YQ4dhZND3hBfhSZ998ORTM5DWFaHM4/edit" >Submit location</a>
+		   </div>
 		</div>	
     </section>
 	
@@ -143,6 +140,14 @@
     </section>
 	
     <script>
+		var mapJPEG = localStorage.getItem("mapJPEGSave");
+		function setMapJPEG(id) {
+			mapJPEG = id;
+			localStorage.setItem("mapJPEGSave", mapJPEG);
+			setTimeout(location.reload.bind(location), 1);
+		}
+	
+		
 		function initStreetViewer(panoramaData) {
  
 			let panorama = document.getElementById('panorama');
@@ -164,11 +169,17 @@
 
 		}
 
+		var mapMarker = L.icon ({
+			iconUrl: './marker-icon.png',
+			iconSize: [28,36],
+			iconAnchor: [12,35]
+		})
+
 		async function mapSpotsToMap() {
 			const spotsData = await (await fetch('./spots/'+mapJPEG+'.json')).json();
 			for (let spot of spotsData) {
 				let position = L.latLng([spot.y, spot.x]);
-				L.marker(position).addTo(map)
+				L.marker(position,{icon:mapMarker}).addTo(map)
 				.bindPopup(spot.locationName)
 				.on('click', () => {
 					initStreetViewer(spot.panoramaData);
@@ -187,7 +198,10 @@
 		map.fitBounds(bounds);
 		
 		mapSpotsToMap();
-	
+		
+		if ( mapJPEG === null ) {
+			alert("Choose a map from the top bar to start your journey!");
+		}
 	</script>
     
     <div id="infoBot">
