@@ -1,0 +1,55 @@
+
+[
+    
+    
+	
+	{
+        "y": 380,
+        "x": 345,
+        "panoramaData": {
+            "default": {
+				"name": "Western Thanalan",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/cxchyK6/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-20-42-11-20-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 834,
+        "x": 241,
+        "panoramaData": {
+            "default": {
+				"name": "Western Thanalan",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/JyJNv75/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-20-45-56-65-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    }
+]
