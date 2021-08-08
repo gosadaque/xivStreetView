@@ -1,0 +1,80 @@
+
+[
+    
+    
+	
+	{
+        "y": 570,
+        "x": 425,
+        "panoramaData": {
+            "default": {
+				"name": "Central Thanalan",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/UkvG7fE.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 870,
+        "x": 465,
+        "panoramaData": {
+            "default": {
+				"name": "Central Thanalan",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/WtWC0Cg/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-22-02-40-53-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 574,
+        "x": 271,
+        "panoramaData": {
+            "default": {
+				"name": "Central Thanalan",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/NU3DYOA.jpeg"
+                }
+                
+                
+            }
+
+        }
+    }
+]
