@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/pannellum@2.5.6/build/pannellum.js"></script>  
 	
+	<script src="https://kit.fontawesome.com/6a82835f2f.js" crossorigin="anonymous"></script>
+	
 	<link rel="stylesheet" href="main.css">
 	
 	<script>   
@@ -24,105 +25,113 @@
 	</script>   
 
     <title>xivStreetView</title>
+	
 </head>
 <body>
     
     <section>
 		
-		<div class='navMenu' id='navMenuId'>
+		<div class='infoTop' id='navMenuId'>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Abalathian Spire<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'>
-			  <a href="#" onclick='setMapJPEG("XtLXTbT.jpg")'>Azys Lla</a>
-			  <a href="#" onclick='setMapJPEG("CrWXKXQ.png")'>The Sea Of Clouds</a></div>
+				<button class='dropbtn'>Abalathian Spire<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" onclick='setMapJPEG("XtLXTbT.jpg")'>Azys Lla</a>
+					<a href="#" onclick='setMapJPEG("CrWXKXQ.png")'>The Sea Of Clouds</a>
+				</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Coerthas<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'>
-			  <a href="#" onclick='setMapJPEG("JTeS1hH.jpg")'>Coerthas Central Highlands</a>
-			  <a href="#" onclick='setMapJPEG("xe2Cn0T.jpg")'>Coerthas Western Highlands</a>
-			  <a href="#" >Ishgard</a></div>
+				<button class='dropbtn'>Coerthas<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" onclick='setMapJPEG("JTeS1hH.jpg")'>Coerthas Central Highlands</a>
+					<a href="#" onclick='setMapJPEG("xe2Cn0T.jpg")'>Coerthas Western Highlands</a>
+					<a href="#" >Ishgard</a>
+				</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Dravania<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'>
-			  <a href="#" onclick='setMapJPEG("ZuPB141.jpg")'>The Churning Mists</a>
-			  <a href="#" onclick='setMapJPEG("wcCk10J.jpg")'>The Dravanian Forelands</a>
-			  <a href="#" onclick='setMapJPEG("XMSvGF8.jpg")'>The Dravanian Hinterlands</a>
-			  <a href="#" onclick='setMapJPEG("kZ0mJwQ.jpg")'>Idyllshire</a>
-			  </div>
+				<button class='dropbtn'>Dravania<i class='fa fa-caret-down'></i></button>
+					<div class='dropdown-content'>
+						<a href="#" onclick='setMapJPEG("ZuPB141.jpg")'>The Churning Mists</a>
+						<a href="#" onclick='setMapJPEG("wcCk10J.jpg")'>The Dravanian Forelands</a>
+						<a href="#" onclick='setMapJPEG("XMSvGF8.jpg")'>The Dravanian Hinterlands</a>
+						<a href="#" onclick='setMapJPEG("kZ0mJwQ.jpg")'>Idyllshire</a>
+					</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Gyr Abania<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'>
-			  <a href="#" onclick='setMapJPEG("v6qSrOy.jpg")'>The Fringes</a>
-			  <a href="#" onclick='setMapJPEG("HcBKg4x.jpeg")'>The Lochs</a>
-			  <a href="#" onclick='setMapJPEG("1cbjskG.jpeg")'>The Peaks</a>
-			  <a href="#" onclick='setMapJPEG("n8cDH3p.jpeg")'>Rhalgr's Reach</a>
-			  </div>
+				<button class='dropbtn'>Gyr Abania<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" onclick='setMapJPEG("v6qSrOy.jpg")'>The Fringes</a>
+					<a href="#" onclick='setMapJPEG("HcBKg4x.jpeg")'>The Lochs</a>
+					<a href="#" onclick='setMapJPEG("1cbjskG.jpeg")'>The Peaks</a>
+					<a href="#" onclick='setMapJPEG("n8cDH3p.jpeg")'>Rhalgr's Reach</a>
+				</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>La Noscea<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'>
-			  <a href="#" >Limsa Lominsa Lower Decks</a>
-			  <a href="#" >Limsa Lominsa Upper Decks</a>
-			  <a href="#" onclick='setMapJPEG("sKq8xar.jpg")'>Eastern La Noscea</a>
-			  <a href="#" onclick='setMapJPEG("6sUnOfv.jpg")'>Lower La Noscea</a>
-			  <a href="#" onclick='setMapJPEG("CSxMWQY.jpg")'>Middle La Noscea</a>
-			  <a href="#" onclick='setMapJPEG("hBpVpfe.jpg")'>Outer La Noscea</a>
-			  <a href="#" onclick='setMapJPEG("OElhdrz.jpg")'>Upper La Noscea</a>
-			  <a href="#" onclick='setMapJPEG("L8CicmG.jpg")'>Western La Noscea</a>
-			  <a href="#" onclick='setMapJPEG("nkjXBMu.jpg")'>Wolves' Den Pier</a></div>
+				<button class='dropbtn'>La Noscea<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" >Limsa Lominsa Lower Decks</a>
+					<a href="#" >Limsa Lominsa Upper Decks</a>
+					<a href="#" onclick='setMapJPEG("sKq8xar.jpg")'>Eastern La Noscea</a>
+					<a href="#" onclick='setMapJPEG("6sUnOfv.jpg")'>Lower La Noscea</a>
+					<a href="#" onclick='setMapJPEG("CSxMWQY.jpg")'>Middle La Noscea</a>
+					<a href="#" onclick='setMapJPEG("hBpVpfe.jpg")'>Outer La Noscea</a>
+					<a href="#" onclick='setMapJPEG("OElhdrz.jpg")'>Upper La Noscea</a>
+					<a href="#" onclick='setMapJPEG("L8CicmG.jpg")'>Western La Noscea</a>
+					<a href="#" onclick='setMapJPEG("nkjXBMu.jpg")'>Wolves' Den Pier</a>
+				</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Thanalan<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'>
-				<a href="#" onclick='setMapJPEG("Npr9kfX.jpg")'>Central Thanalan</a>
-				<a href="#" onclick='setMapJPEG("tKp0fW9.jpg")'>Eastern Thanalan</a>
-				<a href="#" onclick='setMapJPEG("v72BP7e.jpg")'>Northern Thanalan</a>
-				<a href="#" onclick='setMapJPEG("fn9JhNA.jpg")'>Southern Thanalan</a>
-				<a href="#" >Ul'dah - Steps of Nald</a>
-				<a href="#" >Ul'dah - Steps of Thal</a>
-				<a href="#" onclick='setMapJPEG("2VqfzdI.png")'>Western Thanalan</a>
-				<a href="#" >The Goblet</a>
-				<a href="#" onclick='setMapJPEG("56jcD8f.png")'>The Gold Saucer</a></div>
+				<button class='dropbtn'>Thanalan<i class='fa fa-caret-down'></i></button>
+					<div class='dropdown-content'>
+						<a href="#" onclick='setMapJPEG("Npr9kfX.jpg")'>Central Thanalan</a>
+						<a href="#" onclick='setMapJPEG("tKp0fW9.jpg")'>Eastern Thanalan</a>
+						<a href="#" onclick='setMapJPEG("v72BP7e.jpg")'>Northern Thanalan</a>
+						<a href="#" onclick='setMapJPEG("fn9JhNA.jpg")'>Southern Thanalan</a>
+						<a href="#" >Ul'dah - Steps of Nald</a>
+						<a href="#" >Ul'dah - Steps of Thal</a>
+						<a href="#" onclick='setMapJPEG("2VqfzdI.png")'>Western Thanalan</a>
+						<a href="#" >The Goblet</a>
+						<a href="#" onclick='setMapJPEG("56jcD8f.png")'>The Gold Saucer</a>
+					</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Black Shroud<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'><a href="#" onclick='setMapJPEG("rSydc1O.jpg")'>Central Shroud</a>
-			<a href="#" onclick='setMapJPEG("X8sJ6BN.png")'>East Shroud</a>
-			<a href="#" onclick='setMapJPEG("LpCOjtx.jpg")'>New Gridania</a>
-			<a href="#" onclick='setMapJPEG("KSxcKiD.jpg")'>Old Gridania</a>
-			<a href="#" onclick='setMapJPEG("Vc30Bw3.jpg")'>North Shroud</a>
-			<a href="#" onclick='setMapJPEG("W2wGqe2.jpg")'>South Shroud</a>
-			<a href="#" >The Lavender Beds</a></div>
+				<button class='dropbtn'>Black Shroud<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" onclick='setMapJPEG("rSydc1O.jpg")'>Central Shroud</a>
+					<a href="#" onclick='setMapJPEG("X8sJ6BN.png")'>East Shroud</a>
+					<a href="#" onclick='setMapJPEG("LpCOjtx.jpg")'>New Gridania</a>
+					<a href="#" onclick='setMapJPEG("KSxcKiD.jpg")'>Old Gridania</a>
+					<a href="#" onclick='setMapJPEG("Vc30Bw3.jpg")'>North Shroud</a>
+					<a href="#" onclick='setMapJPEG("W2wGqe2.jpg")'>South Shroud</a>
+					<a href="#" >The Lavender Beds</a>
+				</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Far East<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'><a href="#" ><u>Hingashi:</u></a>
-			<a href="#" onclick='setMapJPEG("Z0fghW9.jpg")'>Kugane</a>
-			<a href="#" >Shirogane</a>
-			<a href="#" ><u>Othard:</u></a>
-			<a href="#" onclick='setMapJPEG("YUuZ2N7.jpg")'>The Azim Steppe</a>
-			<a href="#" onclick='setMapJPEG("aNy9DUk.png")'>The Ruby Sea</a>
-			<a href="#" onclick='setMapJPEG("Gz92XsZ.jpg")'>Yanxia</a></div>
+				<button class='dropbtn'>Far East<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" ><u>Hingashi:</u></a>
+					<a href="#" onclick='setMapJPEG("Z0fghW9.jpg")'>Kugane</a>
+					<a href="#" >Shirogane</a>
+					<a href="#" ><u>Othard:</u></a>
+					<a href="#" onclick='setMapJPEG("YUuZ2N7.jpg")'>The Azim Steppe</a>
+					<a href="#" onclick='setMapJPEG("aNy9DUk.png")'>The Ruby Sea</a>
+					<a href="#" onclick='setMapJPEG("Gz92XsZ.jpg")'>Yanxia</a>
+				</div>
 		   </div>
 		   <div class='dropdown'>
-			  <button class='dropbtn'>Norvrandt<i class='fa fa-caret-down'>&#9660;</i></button>
-			  <div class='dropdown-content'><a href="#" onclick='setMapJPEG("5xolFZx.jpg")'>Amh Araeng</a>
-			<a href="#" onclick='setMapJPEG("2iuoG0p.jpg")'>The Crystiarium</a>
-			<a href="#" >Eulmore</a>
-			<a href="#" onclick='setMapJPEG("Q3AokIR.jpg")'>Il Mheg</a>
-			<a href="#" onclick='setMapJPEG("l8ENDda.jpg")'>Kholusia</a>
-			<a href="#" onclick='setMapJPEG("CIkUH4n.jpg")'>Lakeland</a>
-			<a href="#" onclick='setMapJPEG("eaI3xdX.jpg")'>The Rak'tika Greatwood</a> 
-			<a href="#" onclick='setMapJPEG("xF2vPAF.jpg")'>The Tempest</a></div>
+				<button class='dropbtn'>Norvrandt<i class='fa fa-caret-down'></i></button>
+				<div class='dropdown-content'>
+					<a href="#" onclick='setMapJPEG("5xolFZx.jpg")'>Amh Araeng</a>
+					<a href="#" onclick='setMapJPEG("2iuoG0p.jpg")'>The Crystiarium</a>
+					<a href="#" >Eulmore</a>
+					<a href="#" onclick='setMapJPEG("Q3AokIR.jpg")'>Il Mheg</a>
+					<a href="#" onclick='setMapJPEG("l8ENDda.jpg")'>Kholusia</a>
+					<a href="#" onclick='setMapJPEG("CIkUH4n.jpg")'>Lakeland</a>
+					<a href="#" onclick='setMapJPEG("eaI3xdX.jpg")'>The Rak'tika Greatwood</a> 
+					<a href="#" onclick='setMapJPEG("xF2vPAF.jpg")'>The Tempest</a>
+				</div>
 		   </div>
 		   <a href="https://docs.google.com/forms/d/1qmXvs4flrh136YQ4dhZND3hBfhSZ998ORTM5DWFaHM4/edit" >Submit location</a>
 		</div>	
-          
-		
-		
     </section>
 	
 	<section>
@@ -155,8 +164,6 @@
 
 		}
 
-
-
 		async function mapSpotsToMap() {
 			const spotsData = await (await fetch('./spots/'+mapJPEG+'.json')).json();
 			for (let spot of spotsData) {
@@ -168,9 +175,6 @@
 				})
 			}
 		}
-
-		//array of all maps and corresponding imgurlink
-		//let mapJPEGs = ['Ishgard' = 'https://i.imgur.com/nlFDVnS.jpg', 'Ishgard2' = 'https://i.imgur.com/nlFDVnS.jpg']
 
 		//map
 		var map = L.map('map', {
@@ -186,8 +190,8 @@
 	
 	</script>
     
-    <footer>
-        
-    </footer>
+    <div id="infoBot">
+		<i class="fas fa-code"></i> by <a href="https://www.instagram.com/jan.muesli" target="_blank" rel="noopener">Jan Müsli</a> (<a href="https://ko-fi.com/janmuesli" target="_blank" rel="noopener">ko-fi</a>). Report bugs to <a href="mailto:janMuesliXIV@gmail.com">janMuesliXIV@gmail.com</a>. Panorama by <a href="https://threejs.org" target="_blank" rel="noopener">three.js</a>.
+	</div>
 </body>
 </html>
