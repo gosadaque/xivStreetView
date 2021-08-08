@@ -1,0 +1,210 @@
+body {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	font-family: Monospace;
+	font-size: 13px;
+	line-height: 24px;
+	overscroll-behavior: none;
+}
+.hide {
+    display: none;
+}
+#map, #panorama {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 80vh;
+    width: 90%;
+    border-radius: 10px;
+	text-align:center;
+}
+a {
+	color: #ff0;
+	text-decoration: none;
+}
+.navMenu {
+			overflow: hidden;
+			top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	background-color: rgba(55, 55, 55, 0.6);
+	z-index: 1; /* TODO Solve this in HTML */
+		}
+
+		.navMenu a {
+			font-size: 16px;
+			background-color: rgba(55, 55, 55, 0.6);
+			padding: 14px 16px;
+			text-align: left
+		}
+
+		.navMenu a.active {
+	background-color: rgba(55, 55, 55, 0.6);
+			color: #FFF
+		}
+
+
+
+		.navMenu .dropdown {
+			float: left;
+			overflow: hidden
+		}
+
+		.navMenu .dropdown .dropbtn {
+			font-size: 16px;
+			border: none;
+			outline: none;
+			background-color: rgba(55, 55, 55, 0.6);
+			padding: 14px 16px;
+			margin: 0;
+			text-align: left
+		}
+
+		
+
+		.navMenu .navbar a:hover,
+		.navMenu .dropdown:hover .dropbtn {
+	background-color: rgba(55, 55, 55, 0.6);
+			color: #FFFFFF
+		}
+
+		.navMenu .dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #000;
+			min-width: 160px;
+			box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+			z-index: 1
+		}
+
+		.navMenu .dropdown-content a {
+			float: none;
+			color: #FFF;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+	background-color: rgba(55, 55, 55, 0.6);
+			color: #000000
+		}
+
+		.navMenu .dropdown-content a:hover {
+			background-color: #333;
+			color: #FFFFFF
+		}
+
+		.navMenu .dropdown:hover .dropdown-content {
+			display: block
+		}
+		
+a:hover {
+	color: #ff0022;
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+#infoTop {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	background-color: rgba(55, 55, 55, 0.6);
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+#infoTop2 {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+#infoBot {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	background-color: rgba(55, 55, 55, 0.6);
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
+
+
+
+a, button, input, select {
+	pointer-events: auto;
+}
+
+.dg.ac {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	z-index: 2 !important; /* TODO Solve this in HTML */
+}
+
+#overlay {
+	position: absolute;
+	font-size: 16px;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgba(0,0,0,0.7);
+}
+
+	#overlay button {
+		background: transparent;
+		border: 0;
+		border: 1px solid rgb(255, 255, 255);
+		border-radius: 4px;
+		color: #ffffff;
+		padding: 12px 18px;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+
+#notSupported {
+	width: 50%;
+	margin: auto;
+	background-color: #f00;
+	margin-top: 20px;
+	padding: 10px;
+}
+

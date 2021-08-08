@@ -1,0 +1,30 @@
+
+[
+    
+    {
+        "y": 5,
+        "x": 5,
+        "panoramaData": {
+            "default": {
+				"name": "The Rak'tika Greatwood",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": ""
+                }
+                
+                
+            }
+
+        }
+    }
+	
+	
+]
