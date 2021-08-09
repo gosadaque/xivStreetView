@@ -199,7 +199,7 @@
 		});
 
 		var bounds = [[0, 0], [1000, 1000]];
-		var image = L.imageOverlay('https://i.imgur.com/'+mydata[0][mapJPEG], bounds).addTo(map);
+		var image = L.imageOverlay(mydata[0][mapJPEG], bounds).addTo(map);
 		map.fitBounds(bounds);
 		
 		mapSpotsToMap();
