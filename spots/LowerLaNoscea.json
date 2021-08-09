@@ -1,0 +1,81 @@
+
+[
+    
+    {
+        "y": 515,
+        "x": 729,
+        "panoramaData": {
+            "default": {
+				"name": "Lower La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/44K6kxD/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-14-00-53-08-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 310,
+        "x": 522,
+        "panoramaData": {
+            "default": {
+				"name": "Lower La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/Cm09M31/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-14-08-58-29-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	
+	{
+        "y": 450,
+        "x": 609,
+        "panoramaData": {
+            "default": {
+				"name": "Lower La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/nbd2xQj/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-13-54-45-27-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    }
+	
+	
+]
