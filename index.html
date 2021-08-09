@@ -14,6 +14,8 @@
 	
 	<script src="https://kit.fontawesome.com/6a82835f2f.js" crossorigin="anonymous"></script>
 	
+	<script type="text/javascript" src="maps.json"></script>
+	
 	<link rel="stylesheet" href="main.css">
 
     <title>xivStreetView</title>
@@ -137,6 +139,13 @@
     </section>
 	
     <script>
+		var mydata = JSON.parse(data);
+		alert(mydata[0].ishgard);
+			
+	
+	
+	
+	
 		var mapJPEG = localStorage.getItem("mapJPEGSave");
 		function setMapJPEG(id) {
 			mapJPEG = id;
