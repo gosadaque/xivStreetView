@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 354,
+        "x":493,
         "panoramaData": {
             "default": {
                 "firstScene": "1",
@@ -16,7 +16,31 @@
                     "pitch": -3,
                     "yaw": 117,
                     "type": "equirectangular",
-                    "panorama": ""
+                    "panorama": "https://i.ibb.co/FYTx1nm/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-09-13-55-19-66-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 602,
+        "x":400,
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/xMRJ8ft.jpg"
                 }
                 
                 
