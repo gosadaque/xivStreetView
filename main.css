@@ -40,14 +40,16 @@ a {
 	outline: none;
 	background-color: rgba(55, 55, 55, 0.6);
 	padding: 14px 16px;
-	margin: 0
+	margin: 0;
+	color: #FFFFFF
 }
 
 .dropdown a {
 	font-size: 16px;
 	background-color: rgba(55, 55, 55, 0.6);
 	padding: 11px 16px;
-	float: left
+	float: left;
+	color: #FFFFFF
 }
 
 .navbar a:hover,
