@@ -1,0 +1,56 @@
+
+[
+    
+    {
+        "y": 515,
+        "x": 384,
+        "panoramaData": {
+            "default": {
+				"name": "Middle La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/eAJF2M3.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	
+	{
+        "y": 635,
+        "x": 375,
+        "panoramaData": {
+            "default": {
+				"name": "Middle La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/uWEZUN4.jpg"
+                }
+                
+                
+            }
+
+        }
+    }
+	
+	
+]

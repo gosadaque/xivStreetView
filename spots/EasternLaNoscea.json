@@ -1,0 +1,58 @@
+
+[
+    
+    
+	
+	{
+        "y": 270,
+        "x": 842,
+        "panoramaData": {
+            "default": {
+				"name": "Eastern La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": ""
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	
+	{
+        "y": 281,
+        "x": 474,
+        "panoramaData": {
+            "default": {
+				"name": "Eastern La Noscea",
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/X22uFxq.jpg"
+                }
+                
+                
+            }
+
+        }
+    }
+	
+	
+]
