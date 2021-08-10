@@ -2,8 +2,57 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 589,
+        "x": 440,
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/qd3KGcn.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	
+	{
+        "y": 735,
+        "x": 290,
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/tOMNYA1.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 697,
+        "x": 598,
         "panoramaData": {
             "default": {
                 "firstScene": "1",
@@ -24,6 +73,5 @@
 
         }
     }
-	
 	
 ]
