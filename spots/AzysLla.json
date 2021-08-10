@@ -2,13 +2,18 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 500,
+        "x": 247,
         "panoramaData": {
             "default": {
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },
+			"icon": {
+			"iconUrl": "./marker-icon.png",
+			"iconSize": [28,36],
+			"iconAnchor": [12,35]
+			},
 
             "scenes": {
                 "1": {
@@ -16,7 +21,36 @@
                     "pitch": -3,
                     "yaw": 117,
                     "type": "equirectangular",
-                    "panorama": ""
+                    "panorama": "https://i.imgur.com/Yordvmm.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	
+	{
+        "y": 500,
+        "x": 735,
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+			"icon": {
+			"iconUrl": "./marker-icon.png",
+			"iconSize": [28,36],
+			"iconAnchor": [12,35]
+			},
+			
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/iJJtiV3.jpg"
                 }
                 
                 
@@ -24,6 +58,4 @@
 
         }
     }
-	
-	
 ]
