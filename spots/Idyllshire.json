@@ -4,6 +4,11 @@
     {
         "y": 768,
         "x": 681,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
                 "firstScene": "1",

@@ -4,6 +4,11 @@
     {
         "y": 595,
         "x": 485,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Outer La Noscea",

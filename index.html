@@ -176,16 +176,18 @@
 
 		}
 
-		var mapMarker = L.icon ({
-			iconUrl: './marker-icon.png',
-			iconSize: [28,36],
-			iconAnchor: [12,35]
-		})
+		
 
 		async function mapSpotsToMap() {
 			const spotsData = await (await fetch('./spots/'+mapJPEG+'.json')).json();
 			for (let spot of spotsData) {
 				let position = L.latLng([spot.y, spot.x]);
+				var mapMarker = L.icon ({
+					iconUrl: spot.iconUrl,
+					iconSize: spot.iconSize,
+					iconAnchor: spot.iconAnchor
+				})
+				
 				L.marker(position,{icon:mapMarker}).addTo(map)
 				.bindPopup(spot.locationName)
 				.on('click', () => {

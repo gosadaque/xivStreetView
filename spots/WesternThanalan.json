@@ -6,6 +6,11 @@
 	{
         "y": 380,
         "x": 345,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Western Thanalan",
@@ -31,6 +36,11 @@
 	{
         "y": 834,
         "x": 241,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Western Thanalan",

@@ -4,9 +4,13 @@
     {
         "y": 5,
         "x": 5,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
-				"name": "Kholusia",
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },

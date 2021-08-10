@@ -6,6 +6,11 @@
 	{
         "y": 270,
         "x": 842,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Eastern La Noscea",
@@ -32,6 +37,11 @@
 	{
         "y": 281,
         "x": 474,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Eastern La Noscea",

@@ -4,6 +4,11 @@
     {
         "y": 354,
         "x":493,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
                 "firstScene": "1",
@@ -28,6 +33,11 @@
 	{
         "y": 602,
         "x":400,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
                 "firstScene": "1",

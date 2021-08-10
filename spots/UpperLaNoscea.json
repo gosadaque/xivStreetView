@@ -6,6 +6,11 @@
 	{
         "y": 425,
         "x": 805,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Upper La Noscea",
@@ -32,6 +37,11 @@
 	{
         "y": 470,
         "x": 614,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Upper La Noscea",

@@ -6,6 +6,11 @@
 	{
         "y": 525,
         "x": 455,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Central Thanalan",
@@ -31,6 +36,11 @@
 	{
         "y": 720,
         "x": 485,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Central Thanalan",
@@ -56,6 +66,11 @@
 	{
         "y": 525,
         "x": 358,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
 				"name": "Central Thanalan",

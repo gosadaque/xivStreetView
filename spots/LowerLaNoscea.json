@@ -4,9 +4,13 @@
     {
         "y": 515,
         "x": 729,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
-				"name": "Lower La Noscea",
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },
@@ -29,9 +33,13 @@
 	{
         "y": 310,
         "x": 522,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
-				"name": "Lower La Noscea",
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },
@@ -55,9 +63,13 @@
 	{
         "y": 450,
         "x": 609,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
-				"name": "Lower La Noscea",
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },

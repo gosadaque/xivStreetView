@@ -4,6 +4,11 @@
     {
         "y": 385,
         "x": 173,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
                 "firstScene": "1",
@@ -28,6 +33,11 @@
 	{
         "y": 385,
         "x": 183,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
                 "firstScene": "1",
@@ -52,6 +62,11 @@
 	{
         "y": 805,
         "x": 395,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
                 "firstScene": "1",

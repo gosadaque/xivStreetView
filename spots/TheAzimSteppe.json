@@ -6,9 +6,13 @@
 	{
         "y": 420,
         "x": 545,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
         "panoramaData": {
             "default": {
-				"name": "The Azim Steppe",
                 "firstScene": "1",
                 "sceneFadeDuration": 1000
             },
