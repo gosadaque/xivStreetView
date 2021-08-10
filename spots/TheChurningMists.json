@@ -86,5 +86,94 @@
             }
 
         }
+    },
+	{
+        "y": 385,
+        "x": 145,
+		
+		"iconUrl": "./aethercurrent.png",
+		"iconSize": [25,25],
+		"iconAnchor": [12,12],
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": ""
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 655,
+        "x": 780,
+		
+		"iconUrl": "./aethercurrent.png",
+		"iconSize": [25,25],
+		"iconAnchor": [12,12],
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": ""
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 565,
+        "x": 662,
+		
+		"iconUrl": "./aethercurrent.png",
+		"iconSize": [25,25],
+		"iconAnchor": [12,12],
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": ""
+                }
+                
+                
+            }
+
+        }
     }
+	
+	
+	
+	
+	
 ]

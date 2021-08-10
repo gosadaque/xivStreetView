@@ -177,6 +177,10 @@
 		}
 
 		
+		var spotsArr = [];
+		var aetherCurrentsArr = [];
+		var spotsArrCnt = 0;
+		var aetherCurrentsArrCnt = 0;
 
 		async function mapSpotsToMap() {
 			const spotsData = await (await fetch('./spots/'+mapJPEG+'.json')).json();
@@ -186,27 +190,57 @@
 					iconUrl: spot.iconUrl,
 					iconSize: spot.iconSize,
 					iconAnchor: spot.iconAnchor
-				})
+				});
 				
-				L.marker(position,{icon:mapMarker}).addTo(map)
-				.bindPopup(spot.locationName)
+				var createdMarker = L.marker(position,{icon:mapMarker})
 				.on('click', () => {
 					initStreetViewer(spot.panoramaData);
 				})
+				.addTo(map);
+				
+				if ( spot.iconUrl === "./aethercurrent.png" ) {
+					aetherCurrentsArr[aetherCurrentsArrCnt] = createdMarker;
+					aetherCurrentsArrCnt = aetherCurrentsArrCnt+1;
+				}
+				else if ( spot.iconUrl === "./marker-icon.png" ) {
+					spotsArr[spotsArrCnt] = createdMarker;
+					spotsArrCnt = spotsArrCnt+1;
+				}
 			}
 		}
-
+		
+		mapSpotsToMap();
+		
+		alert(spotsArr[0]);
+		
+		//layer: types of spots
+		//https://leafletjs.com/examples/layers-control/
+		var spots = L.layerGroup(spotsArr);
+		var aetherCurrents = L.layerGroup(aetherCurrentsArr);
+		
+		
+		
+		
+		
 		//map
 		var map = L.map('map', {
 			crs: L.CRS.Simple,
-			minZoom: -0.5
+			minZoom: -0.5,
+			layers: [spots, aetherCurrents]
 		});
+		
+		var overlayMaps = {
+			"Spots": spots,
+			"Aether Currents": aetherCurrents
+		};
+		
+		L.control.layers(false,overlayMaps).addTo(map);
 
 		var bounds = [[0, 0], [1000, 1000]];
 		var image = L.imageOverlay(mydata[0][mapJPEG], bounds).addTo(map);
 		map.fitBounds(bounds);
 		
-		mapSpotsToMap();
+		
 		
 		if ( mapJPEG === null ) {
 			alert("Choose a map from the top bar to start your journey!");
