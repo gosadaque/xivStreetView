@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 435,
+        "x": 458,
         "panoramaData": {
             "default": {
                 "firstScene": "1",
@@ -16,7 +16,7 @@
                     "pitch": -3,
                     "yaw": 117,
                     "type": "equirectangular",
-                    "panorama": ""
+                    "panorama": "https://i.imgur.com/tV4u928.jpg"
                 }
                 
                 
