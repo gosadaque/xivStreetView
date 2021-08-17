@@ -28,6 +28,34 @@
             }
 
         }
+    },
+	{
+        "y": 245,
+        "x": 362,
+		
+		"iconUrl": "./pin-needle.png",
+		"iconSize": [14,17],
+		"iconAnchor": [7,8],
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.imgur.com/m2y7iTa.jpg"
+                }
+                
+                
+            }
+
+        }
     }
 	
 	
