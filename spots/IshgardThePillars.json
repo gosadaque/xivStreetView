@@ -6,8 +6,8 @@
         "x": 321,
 		
 		"iconUrl": "./pin-needle.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
+		"iconSize": [14,17],
+		"iconAnchor": [7,8],
 		
         "panoramaData": {
             "default": {
@@ -28,7 +28,36 @@
             }
 
         }
-    }
+    },
 	
 	
+	
+	{
+        "y": 300,
+        "x": 601,
+		
+		"iconUrl": "./marker-icon.png",
+		"iconSize": [28,36],
+		"iconAnchor": [12,35],
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/N219Kdm/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-09-21-15-24-45-75-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
 ]
