@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 600,
+        "x": 321,
 		
 		"iconUrl": "./pin-needle.png",
 		"iconSize": [28,36],
