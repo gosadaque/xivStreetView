@@ -2,7 +2,7 @@
 [
     
     {
-        "y": 640,
+        "y": 630,
         "x": 382,
 		
 		"iconUrl": "./pin-needle.png",
@@ -30,7 +30,34 @@
         }
     },
 	
-	
+	{
+        "y": 640,
+        "x": 502,
+		
+		"iconUrl": "./pin-needle.png",
+		"iconSize": [14,17],
+		"iconAnchor": [7,8],
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1",
+                "sceneFadeDuration": 1000
+            },
+
+            "scenes": {
+                "1": {
+                    "hfov": 110,
+                    "pitch": -3,
+                    "yaw": 117,
+                    "type": "equirectangular",
+                    "panorama": "https://i.ibb.co/Q95KQ8J/ishgardthepillars.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
 	
 	{
         "y": 500,
