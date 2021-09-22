@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 600,
-        "x": 321,
+        "y": 650,
+        "x": 402,
 		
 		"iconUrl": "./pin-needle.png",
 		"iconSize": [14,17],
@@ -33,8 +33,8 @@
 	
 	
 	{
-        "y": 300,
-        "x": 601,
+        "y": 460,
+        "x": 501,
 		
 		"iconUrl": "./marker-icon.png",
 		"iconSize": [28,36],
