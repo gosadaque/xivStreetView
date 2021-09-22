@@ -185,10 +185,18 @@
 			const spotsData = await (await fetch('./spots/'+mapJPEG+'.json')).json();
 			for (let spot of spotsData) {
 				let position = L.latLng([spot.y, spot.x]);
+				if ( spot.iconUrl == "./pin-needle.png" ) {
+					localIconSize = [14,17];
+					localIconAnchor = [7,8];
+				}
+				else if ( spot.iconUrl == "./marker-icon.png" ) {
+					localIconSize = [28,36];
+					localIconAnchor = [12,35];
+				}
 				var mapMarker = L.icon ({
 					iconUrl: spot.iconUrl,
-					iconSize: spot.iconSize,
-					iconAnchor: spot.iconAnchor
+					iconSize: localIconSize,
+					iconAnchor: localIconAnchor
 				})
 				
 				L.marker(position,{icon:mapMarker}).addTo(map)

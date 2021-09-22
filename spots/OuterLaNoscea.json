@@ -6,22 +6,14 @@
         "x": 485,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-				"name": "Outer La Noscea",
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.ibb.co/ZKpMw8j/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-08-08-15-24-21-38-stitch.jpg"
                 }
                 

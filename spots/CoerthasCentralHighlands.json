@@ -6,21 +6,15 @@
         "x": 320,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
+                
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.imgur.com/zNHKSpw.jpg"
                 }
                 
@@ -35,21 +29,15 @@
         "x": 500,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
+                
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.imgur.com/ykN5eoQ.jpg"
                 }
                 
@@ -63,21 +51,14 @@
         "x": 455,
 		
 		"iconUrl": "./pin-needle.png",
-		"iconSize": [14,17],
-		"iconAnchor": [7,8],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.ibb.co/CnnP226/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-09-22-13-51-59-15-stitch.jpg"
                 }
                 
@@ -91,21 +72,15 @@
         "x": 555,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
+                
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.imgur.com/E6ZLjKu.jpg"
                 }
                 
