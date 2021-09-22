@@ -127,8 +127,8 @@
 				</div>
 		   </div>
 		   <div class='dropdown'>
-				<a href="https://docs.google.com/forms/d/1qmXvs4flrh136YQ4dhZND3hBfhSZ998ORTM5DWFaHM4/edit" >Submit location</a>
-		   </div>
+				<a href="#" onclick='sharePopUp()'><i class="fas fa-star"></i> Share location</a>
+				</div>
 		</div>	
     </section>
 	
@@ -145,10 +145,51 @@
     </section>
 	
     <script>
+		var $_GET = {};
+		if(document.location.toString().indexOf('?') !== -1) {
+			var query = document.location
+						   .toString()
+						   // get the query string
+						   .replace(/^.*?\?/, '')
+						   // and remove any existing hash string (thanks, @vrijdenker)
+						   .replace(/#.*$/, '')
+						   .split('&');
+
+			for(var i=0, l=query.length; i<l; i++) {
+			   var aux = decodeURIComponent(query[i]).split('=');
+			   $_GET[aux[0]] = aux[1];
+			}
+			
+			setMapJPEG("$_GET['m']");
+			
+			const spotsData = fetch('./spots/'+mapJPEG+'.json').json();
+			cntSpots = 0;
+			for (let spot of spotsData) {
+				if ( cntSpots == $_GET['i'] ) {
+					initStreetView(spot.panoramaData,cntSpots);
+				}
+				cntSpots = cntSpots+1;
+			}
+			window.history.replaceState({}, document.title, "http://localhost/xivStreetView/");
+		}
+		else {
+		alert("daway");
+		}
+	
+	
+	
+	
+	
+	
+	
 		var mydata = JSON.parse(data);
 			
-	
-	
+		//sharing function
+		function sharePopUp() {
+			cntSpotss = localStorage.getItem('cntSpotsSave')
+			mapJPEGu = localStorage.getItem('mapJPEGSave')
+			alert("https://xivStreetView.pages.dev/?m="+mapJPEGu+"&i="+cntSpotss);
+		}
 	
 	
 		var mapJPEG = localStorage.getItem("mapJPEGSave");
@@ -159,8 +200,8 @@
 		}
 	
 		
-		function initStreetViewer(panoramaData) {
- 
+		function initStreetView(panoramaData,noSpot) {
+			localStorage.setItem("cntSpotsSave", noSpot);
 			let panorama = document.getElementById('panorama');
 			panorama.classList.remove('hide');
 
@@ -184,6 +225,7 @@
 
 		async function mapSpotsToMap() {
 			const spotsData = await (await fetch('./spots/'+mapJPEG+'.json')).json();
+			cntSpots = 0;
 			for (let spot of spotsData) {
 				let position = L.latLng([spot.y, spot.x]);
 				var mapMarker = L.icon ({
@@ -193,10 +235,10 @@
 				})
 				
 				L.marker(position,{icon:mapMarker}).addTo(map)
-				.bindPopup(spot.locationName)
 				.on('click', () => {
-					initStreetViewer(spot.panoramaData);
+					initStreetView(spot.panoramaData,cntSpots);
 				})
+				cntSpots = cntSpots+1;
 			}
 		}
 
@@ -218,7 +260,9 @@
 	</script>
     
     <div id="infoBot">
-		<i class="fas fa-code"></i> by <a href="https://www.instagram.com/jan.muesli" target="_blank" rel="noopener">Jan Müsli</a>. <a href="https://docs.google.com/forms/d/1PQC1fcJkfZfS0axL4EAiiSYnSBl7LIjVJ_wGHVgYiVM/">Report bug</a>. 
+		<i class="fas fa-code"></i> by <a href="https://www.instagram.com/jan.muesli" target="_blank" rel="noopener">Jan Müsli</a>. 
+		<a href="https://docs.google.com/forms/d/1PQC1fcJkfZfS0axL4EAiiSYnSBl7LIjVJ_wGHVgYiVM/">Report bug</a>. 
+		<a href="https://docs.google.com/forms/d/1qmXvs4flrh136YQ4dhZND3hBfhSZ998ORTM5DWFaHM4/edit" >Submit location</a>.
 	</div>
 </body>
 </html>
