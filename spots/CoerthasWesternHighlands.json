@@ -6,21 +6,14 @@
         "x": 430,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.imgur.com/n4DPSGe.jpg"
                 }
                 
@@ -35,21 +28,14 @@
         "x": 275,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.imgur.com/uY2YUlV.jpg"
                 }
                 
@@ -63,21 +49,14 @@
         "x": 712,
 		
 		"iconUrl": "./marker-icon.png",
-		"iconSize": [28,36],
-		"iconAnchor": [12,35],
 		
         "panoramaData": {
             "default": {
-                "firstScene": "1",
-                "sceneFadeDuration": 1000
+                "firstScene": "1"
             },
 
             "scenes": {
                 "1": {
-                    "hfov": 110,
-                    "pitch": -3,
-                    "yaw": 117,
-                    "type": "equirectangular",
                     "panorama": "https://i.imgur.com/aZfVriP.jpg"
                 }
                 
