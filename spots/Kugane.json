@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 420,
+        "x": 574,
 		
 		"iconUrl": "./marker-icon.png",
 		
@@ -14,7 +14,7 @@
 
             "scenes": {
                 "1": {
-                    "panorama": ""
+                    "panorama": "https://i.ibb.co/5LQTXh3/kugane.jpg"
                 }
                 
                 

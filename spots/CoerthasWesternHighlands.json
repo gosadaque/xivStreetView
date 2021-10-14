@@ -64,7 +64,48 @@
             }
 
         }
+    },
+	
+	{
+        "y": 604,
+        "x": 822,
+		
+		"iconUrl": "./pin-needle.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/jRcWpQ9/coerthaswesternhigh36-4-18-0.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 576,
+        "x": 817,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/yq4sw8h/coerthaswesternhigh-UNTERHAUS36-4-18-0.jpg"
+                }
+                
+                
+            }
+
+        }
     }
-	
-	
 ]
