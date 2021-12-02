@@ -144,11 +144,7 @@
     </section>
 	
     <script>
-		var mydata = JSON.parse(data);
-			
-	
-	
-	
+		var mydata = JSON.parse(data);	
 	
 		var mapJPEG = localStorage.getItem("mapJPEGSave");
 		function setMapJPEG(id) {
@@ -222,6 +218,15 @@
 		if ( mapJPEG === null ) {
 			alert("Choose a map from the top bar to start your journey!");
 		}
+		
+		
+		map.on('click', function(e){
+		    var coord = e.latlng;
+	  	    var lat = coord.lat;
+		    var lng = coord.lng;
+		    console.log("You clicked the map at y: " + lat + " and x: " + lng);
+		});
+  
 	</script>
     
     <div id="infoBot">

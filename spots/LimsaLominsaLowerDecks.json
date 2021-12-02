@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 5,
-        "x": 5,
+        "y": 494.25,
+        "x": 403.625,
 		
 		"iconUrl": "./marker-icon.png",
 		
@@ -14,7 +14,7 @@
 
             "scenes": {
                 "1": {
-                    "panorama": ""
+                    "panorama": "https://i.ibb.co/rQ8LD5h/guesswherech.jpg"
                 }
                 
                 
