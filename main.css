@@ -14,8 +14,6 @@ body {
 
 #map,
 #panorama {
-	margin-top: 5vh;
-	margin-bottom: 5vh;
 	height: 90vh;
 	width: 100%;
 	border-radius: 10px;
