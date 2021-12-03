@@ -16,7 +16,6 @@ body {
 #panorama {
 	height: 100%;
 	width: 90%;
-	border-radius: 10px;
 	z-index:-100;
 	position: fixed;
 }
@@ -98,6 +97,7 @@ button {
 	top: 0px;
 	width: 100%;
 	padding: 10px;
+	border-radius: 1px 1px 15px 15px;
 	box-sizing: border-box;
 	text-align: center;
 	-moz-user-select: none;
@@ -115,6 +115,7 @@ button {
 	bottom: 0px;
 	width: 100%;
 	padding: 10px;
+	border-radius: 15px 15px 1px 1px;
 	box-sizing: border-box;
 	text-align: center;
 	-moz-user-select: none;
