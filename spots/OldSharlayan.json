@@ -77,7 +77,28 @@
 
             "scenes": {
                 "1": {
-                    "panorama": ""
+                    "panorama": "https://i.ibb.co/TPXfbzr/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-12-03-13-18-41-95-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 535.3,
+        "x": 424.8,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/6mL07jj/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-12-03-13-23-43-83-stitch.jpg"
                 }
                 
                 
