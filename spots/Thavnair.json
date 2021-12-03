@@ -1,0 +1,88 @@
+
+[
+    
+    {
+        "y": 32.2,
+        "x": 17.9,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/DVqrBQ1/windaether-17-9-32-2-thavanairch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 24.8,
+        "x": 20.5,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/p26mvBS/windaeth20-5-24-8thavanir.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 31,
+        "x": 27.5,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/LkXqg8S/windaeth27-5-31thavanir.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 20.5,
+        "x": 7.2,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/PDs2fz2/windaeth20-5-7-2thavanir.jpg"
+                }
+                
+                
+            }
+
+        }
+    }
+]

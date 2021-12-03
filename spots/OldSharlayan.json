@@ -126,6 +126,47 @@
             }
 
         }
+    },
+	{
+        "y": 616.3,
+        "x": 122.5,
+		
+		"iconUrl": "./pin-needle.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/DWPk4sB/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-12-03-15-29-41-77-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 646.3,
+        "x": 216.5,
+		
+		"iconUrl": "./pin-needle.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/HHLD6cQ/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-12-03-15-39-27-73-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
     }
-	
 ]
