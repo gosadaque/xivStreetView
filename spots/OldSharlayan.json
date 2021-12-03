@@ -105,6 +105,27 @@
             }
 
         }
+    },
+	{
+        "y": 448.3,
+        "x": 145.5,
+		
+		"iconUrl": "./pin-needle.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/Cn45c6n/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-12-03-15-13-54-46-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
     }
 	
 ]
