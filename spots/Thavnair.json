@@ -64,6 +64,28 @@
 
         }
     },
+	
+	{
+        "y": 534,
+        "x": 220,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.imgur.com/og87KKn.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
 	{
         "y": 773,
         "x": 266,
