@@ -2,8 +2,8 @@
 [
     
     {
-        "y": 528.9,
-        "x": 445,
+        "y": 445,
+        "x": 528,
 		
 		"iconUrl": "./marker-icon.png",
 		
@@ -63,5 +63,27 @@
             }
 
         }
+    },
+	{
+        "y": 502.3,
+        "x": 396.8,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": ""
+                }
+                
+                
+            }
+
+        }
     }
+	
 ]
