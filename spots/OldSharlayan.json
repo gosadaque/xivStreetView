@@ -189,5 +189,26 @@
             }
 
         }
+    },
+	{
+        "y": 557.3,
+        "x": 499.75,
+		
+		"iconUrl": "./marker-icon.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/pKWf9SV/sharlayan-x11-2-y10.jpg"
+                }
+                
+                
+            }
+
+        }
     }
 ]
