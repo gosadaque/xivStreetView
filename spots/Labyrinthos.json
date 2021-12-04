@@ -1,0 +1,27 @@
+
+[
+    
+    {
+        "y": 850,
+        "x": 476,
+		
+		"iconUrl": "./sightseeing.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/pzwKrsC/labyrinthoseorzea20-4-7-6.jpg"
+                }
+                
+                
+            }
+
+        }
+    }
+	
+	
+]
