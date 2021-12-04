@@ -42,6 +42,27 @@
             }
 
         }
+    },
+	{
+        "y": 689,
+        "x": 344,
+		
+		"iconUrl": "./windaether.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/42YPKwz/Final-Fantasy-XIV-A-Realm-Reborn-Screenshot-2021-12-04-22-21-16-70-stitch.jpg"
+                }
+                
+                
+            }
+
+        }
     }
 	
 ]
