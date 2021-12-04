@@ -145,7 +145,7 @@
 		<div id="map"></div>
 
 		<div id="panorama" class="hide">
-		<div class="leaflet-control-attribution leaflet-control"› <a href="htt  sWleafletjs.com" title="A JS library for interactive maps">Leaflet</a> </div>
+		<div class="leaflet-control-attribution leaflet-control">  </div>
 		</div>
 		
 
@@ -189,6 +189,14 @@
 				if ( spot.iconUrl == "./pin-needle.png" ) {
 					localIconSize = [14,17];
 					localIconAnchor = [7,8];
+				}
+				else if ( spot.iconUrl == "./windaether.png" ) {
+					localIconSize = [28,36];
+					localIconAnchor = [12,35];
+				}
+				else if ( spot.iconUrl == "./sightseeing.png" ) {
+					localIconSize = [28,36];
+					localIconAnchor = [12,35];
 				}
 				else if ( spot.iconUrl == "./marker-icon.png" ) {
 					localIconSize = [28,36];
