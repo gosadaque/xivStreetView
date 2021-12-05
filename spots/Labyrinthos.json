@@ -63,6 +63,47 @@
             }
 
         }
+    },
+	{
+        "y": 472,
+        "x": 866,
+		
+		"iconUrl": "./windaether.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/k9mVxF7/laybritnhos-x36-3-y22-6.jpg"
+                }
+                
+                
+            }
+
+        }
+    },
+	{
+        "y": 875.4,
+        "x": 665,
+		
+		"iconUrl": "./windaether.png",
+		
+        "panoramaData": {
+            "default": {
+                "firstScene": "1"
+            },
+
+            "scenes": {
+                "1": {
+                    "panorama": "https://i.ibb.co/rFFdhWp/labyrinthos-x28-3-y6-1.jpg"
+                }
+                
+                
+            }
+
+        }
     }
-	
 ]
